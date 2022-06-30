@@ -85,3 +85,22 @@ body {
         transform: translateX(0px);
     }
 }
+@media(max-width: 500px)
+{
+    #showcase .showcase-content {
+          
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #navbar h1 {
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+        margin: auto 0;
+
+    }
+    #navbar ul {
+        display: block;
+    }
+}
